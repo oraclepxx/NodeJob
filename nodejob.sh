@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Hahahahahahah"
+export PATH=/usr/local/bin:$PATH;
+
+node app.js

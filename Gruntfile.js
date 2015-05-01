@@ -20,7 +20,6 @@ module.exports = function (grunt) {
     });
 
     // Load the plugin that provides the "uglify" task.
-    grunt.loadNpmTasks('grunt-cli');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
 
     // Default task(s).

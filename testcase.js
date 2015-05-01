@@ -79,7 +79,7 @@ describe('A Suite', function () {
 
     it('should divide numbers', function () {
         var result = divide(a, b);
-        expect(result).toEqual(0); // should be 5 so this will throw
+        expect(result).toEqual(5); // should be 5 so this will throw
     });
 
 });

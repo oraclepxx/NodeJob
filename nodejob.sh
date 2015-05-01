@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export PATH=/usr/local/bin:$PATH;
+#export PATH=/usr/local/bin:$PATH;
 
-node app.js
+grunt

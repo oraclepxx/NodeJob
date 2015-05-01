@@ -1,16 +1,10 @@
 {
   "name": "NodeJob",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jasmine": "^0.8.2"
   },
-  "author": "xinpan",
-  "license": "ISC"
+  "author": "xinpan"
 }

@@ -74,10 +74,10 @@ module.exports = function (grunt) {
     //});
 
     // Load the plugin that provides the "uglify" task.
-    //grunt.loadNpmTasks('grunt-contrib-jasmine');
-    grunt.loadNpmTasks('grunt-jasmine-nodejs');
+    grunt.loadNpmTasks('grunt-contrib-jasmine');
+    //grunt.loadNpmTasks('grunt-jasmine-nodejs');
 
     // Default task(s).
-    grunt.registerTask('nodejob', ['jasmine_nodejs']);
+    grunt.registerTask('go', ['jasmine']);
 
 };

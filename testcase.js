@@ -8,10 +8,8 @@ describe("A suite", function () {
         expect(true).toBe(true);
     });
 
-    var a;
-
     it("and so is a spec", function () {
-        a = true;
+        var a = true;
 
         expect(a).toBe(true);
     });
@@ -22,6 +20,10 @@ describe("A suite", function () {
 
     it("and can have a negative case", function () {
         expect(false).not.toBe(true);
+    });
+
+    it("test number", function(){
+        expect(1 + 2).toBe(3);
     });
 
 });

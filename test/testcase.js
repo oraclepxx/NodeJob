@@ -22,9 +22,7 @@ describe("A suite", function () {
     });
 
     it("test number", function () {
-        setTimeout(function () {
-            expect(1 + 2).toBe(3);
-        }, 300000);
+        expect(1 + 2).toBe(3);
     });
 
 });

@@ -21,9 +21,9 @@ describe("A suite", function () {
         expect(false).not.toBe(true);
     });
 
-    it("test number", function () {
+    it("test number", setTimeout(function () {
         expect(1 + 2).toBe(3);
-    });
+    }, 300000));
 
 });
 

@@ -10,7 +10,6 @@ describe("A suite", function () {
 
     it("and so is a specs", function () {
         var a = true;
-
         expect(a).toBe(true);
     });
 
@@ -22,8 +21,10 @@ describe("A suite", function () {
         expect(false).not.toBe(true);
     });
 
-    it("test number", function(){
-        expect(1 + 2).toBe(3);
+    it("test number", function () {
+        setTimeout(function () {
+            expect(1 + 2).toBe(3);
+        }, 300000);
     });
 
 });

@@ -22,12 +22,15 @@ describe("A suite", function () {
     });
 
     it("test number", function () {
-        console.log("start")
-        var start = new Date().getSeconds();
-        while (new Date().getSeconds() < start + 60) {
+        var start = new Date().getTime();
+        while(new Date().getTime() < start + 300){
+            doIt();
         }
-        expect(1 + 2).toBe(3);
     });
+
+    function doIt(){
+        expect(1 + 2).toBe(3);
+    }
 
 });
 

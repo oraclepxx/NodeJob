@@ -21,9 +21,13 @@ describe("A suite", function () {
         expect(false).not.toBe(true);
     });
 
-    it("test number", setTimeout(function () {
+    it("test number", function () {
+        console.log("start")
+        var start = new Date().getSeconds();
+        while (new Date().getSeconds() < start + 60) {
+        }
         expect(1 + 2).toBe(3);
-    }, 300000));
+    });
 
 });
 

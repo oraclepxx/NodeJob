@@ -23,9 +23,9 @@ describe("A suite", function () {
 
     it("test number", function () {
         var start = new Date().getTime();
-        while(new Date().getTime() < start + 300){
+        //while(new Date().getTime() < start + 300){
             doIt();
-        }
+        //}
     });
 
     function doIt(){

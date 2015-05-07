@@ -5,7 +5,7 @@
 describe("A suite", function () {
 
     it("contains specs with an expectation", function () {
-        expect(true).toBe(true);
+        expect(true).toBe(false);
     });
 
     it("and so is a specs", function () {

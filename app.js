@@ -18,7 +18,7 @@ function divide(a, b) {
     return a / b;
 }
 
-console.log("1 + 2 = " + add(1, 2));
+console.log("1 + 3 = " + add(1, 2));
 console.log("1 - 2 = " + subtract(1, 2));
 console.log("1 * 2 = " + multi(1, 2));
 console.log("1 / 2 = " + divide(1, 2));
